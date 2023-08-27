@@ -60,7 +60,8 @@ header > p {
     max-width: 600px; /*O efeito colateral é que vira um block-level, e você vai ter que usar o margin: auto pra forçá-lo a centralizar*/
     padding-left: 10px; /*Pra não ficar colado*/
     padding-right: 10px; /*Pra não ficar colado*/
-    margin: auto auto 20px auto;
+    margin: auto;
+    padding-bottom: 50px;
 }
 
 nav {
